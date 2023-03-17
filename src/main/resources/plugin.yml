@@ -1,0 +1,3 @@
+name: AntiAutoFishing
+version: '${project.version}'
+main: net.azisaba.antiautofishing.AntiAutoFishing
