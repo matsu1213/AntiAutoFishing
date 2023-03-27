@@ -24,9 +24,7 @@ public class AutoFishA extends Check{
 
     public void onFish(PlayerFishEvent e){
 
-        if(e.getState() == PlayerFishEvent.State.FISHING
-                || e.getState() == PlayerFishEvent.State.CAUGHT_FISH
-                || e.getState() == PlayerFishEvent.State.CAUGHT_ENTITY) {
+        if(e.getState() == PlayerFishEvent.State.FISHING) {
             if (moved) {
                 moved = false;
                 buffer = 0;
